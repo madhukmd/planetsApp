@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.img {
+  width: 400px;
+  height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    width: 80%;
+    height: 200px;
+  }
+}
+
+.heading {
+  color: #f8fafc;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 25px;
+  }
+}
+
+.description {
+  color: #f1f5f9;
+  font-size: 18px;
+  font-family: 'Roboto';
+  text-align: center;
+  max-width: 600px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: 15px;
+  }
+}
+
+/* * {
+  border: 1px solid blue;
+} */
